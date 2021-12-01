@@ -1,0 +1,36 @@
+{
+	"name": "anonovo",
+	"description": "Comemore o ano novo, com este cronômetro leve e responsivo.",
+	"license": "MIT",
+	"version": "1.0.0",
+	"author": "Gepetojj <nmjoaopedro22@gmail.com>",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"export": "next export",
+		"lint": "next lint",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"luxon": "latest",
+		"next": "latest",
+		"react": "latest",
+		"react-dom": "latest"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^3.1.1",
+		"@types/luxon": "latest",
+		"@types/node": "^16.11.7",
+		"@types/react": "latest",
+		"@types/react-dom": "latest",
+		"autoprefixer": "^10.2.6",
+		"eslint": "<8.0.0",
+		"eslint-config-next": "12.0.4",
+		"eslint-config-prettier": "^8.3.0",
+		"postcss": "^8.3.5",
+		"prettier": "^2.4.1",
+		"tailwindcss": "^2.2.4",
+		"typescript": "^4.4.4"
+	}
+}
